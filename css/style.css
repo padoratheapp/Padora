@@ -427,11 +427,15 @@ ul#menu-main > li > a:focus {
 header .logo {
 	text-align:center;
 	margin-bottom:30px;
+	height: 500px;
+	width: 500px;
+	margin-left: 400px;
 }
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-1.png) no-repeat center center fixed;
+	background: white;
+	color: green;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -445,12 +449,13 @@ header .logo {
 	margin-bottom: 0px;
 	text-align: center;
 	line-height: 1;
-	color:#fff;
+	color:#02b5a0;
 }
 #main-flexslider.flexslider {
 		margin:0;
 		background:none;
 		border:none;
+
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	-o-border-radius: 0;
@@ -518,12 +523,17 @@ section.inner {
 	padding: 50px 0 50px;
 }
 
+.section.orange h4{
+	color: black;
+}
+.section.orange p{
+	color: #f7f7f7;
+}
 
-
-.section.orange h4 ,.section.green ,.section.blue h4{
+.section.green ,.section.blue h4{
 	color: #fcfcfc;
 }
-.section.orange p,.section.green,.section.blue p {
+.section.green,.section.blue p {
 	color: #f7f7f7;
 }
 
@@ -536,7 +546,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#e1abf5;
 }
 
 .spacer.green,.section.green h4 {
@@ -547,7 +557,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#e1abf5;
 }
 
 
