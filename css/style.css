@@ -527,14 +527,14 @@ section.inner {
 	color: black;
 }
 .section.orange p{
-	color: #f7f7f7;
+	color: black;
 }
 
 .section.green ,.section.blue h4{
 	color: #fcfcfc;
 }
 .section.green,.section.blue p {
-	color: #f7f7f7;
+	color: white;
 }
 
 
@@ -546,7 +546,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#e1abf5;
+	background:#E8C1DA;
 }
 
 .spacer.green,.section.green h4 {
@@ -554,15 +554,15 @@ section.spacer {
 }
 
 .spacer.yellow,.section.yellow  {
-	background:#ffe873;
+	background:white;
 }
 .spacer.orange,.section.orange {
-	background:#e1abf5;
+	background:#B1D9DD;
 }
 
 
 .spacer.blue,.section.blue {
-	background:black;
+	background:#6ecad2;
 }
 
 .spacer.pink,.section.pink {
@@ -1305,7 +1305,7 @@ i.icon-circled {
 }
 
 i.icon-white {
-	color:#fff;
+	color:black;
 }
 
 
